@@ -236,7 +236,7 @@ public class StreamExercise {
         Map<String, List<Person>> personMap = null;
 
         personMap = people.stream().collect(Collectors.groupingBy(person -> person.getLastName())); // normal way
-        personMap = people.stream().collect(Collectors.groupingBy(Person::getLastName)); // Lambda methode references
+        //personMap = people.stream().collect(Collectors.groupingBy(Person::getLastName)); // Lambda methode references
 
 
 
